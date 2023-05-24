@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('hour_departure');
             $table->string('hour_arrival');
             $table->smallInteger('train_code')->unsigned();
-            $table->smallInteger('carriage')->unsigned();
+            $table->smallInteger('carriages')->unsigned();
             $table->boolean('status')->default(0);
             $table->boolean('drop')->default(0);
 
