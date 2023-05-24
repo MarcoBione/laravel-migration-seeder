@@ -84,6 +84,48 @@ git remote add origin your_git_url
 git push -u origin main
 
 ```
+
+## creo migration e seeder
+
+- creo database da phpmyadmin
+- aggiungo configurazione a file .env
+
+## creata migration
+
+```php
+#comando:
+- php artisan make:migration create_nometabella_table
+
+#dentro il file migration:
+- definisco una funzione up()
+
+- definisco una funzione down()
+
+#per lanciare la migration:
+- php artisan migration
+
+#controllo su phpmyadmin
+
+```
+
+## creo un model per popolare la tabella
+```php
+- php artisan make:model Nometabellasingolare
+```
+## aggiungo un seeder
+```php
+- php artisan make:seeder NometabellaTableSeeder 'in PacalCase'
+
+#apro il seeder e all'interno trovo la funzione run()
+
+#controllo phpmyadmin per verificare che i dati sono stati inseriti correttamente
+
+#creo successivamente il controller e correggo il file route per la rotta.. dopo stampo la pagina con le view
+
+```
+
+
+
 ### Premium Partners
 
 - **[Vehikl](https://vehikl.com/)**
