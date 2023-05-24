@@ -4,13 +4,13 @@
     <main class="py-3">
         <table class="table container table-fixed">
             <colgroup>
-                <col style="width: 15%;">
-                <col style="width: 15%;">
-                <col style="width: 15%;">
-                <col style="width: 15%;">
-                <col style="width: 15%;">
-                <col style="width: 15%;">
-                <col style="width: 15%;">
+                <col style="width: 18%;">
+                <col style="width: 18%;">
+                <col style="width: 18%;">
+                <col style="width: 18%;">
+                <col style="width: 18%;">
+                <col style="width: 18%;">
+                <col style="width: 18%;">
             </colgroup>
             <thead>
                 <tr>
