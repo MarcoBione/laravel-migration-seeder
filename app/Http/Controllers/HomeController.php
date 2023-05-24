@@ -14,4 +14,12 @@ class HomeController extends Controller
         return view('welcome', compact('trains'));
 
     }
+
+    public function shop(){
+
+        $trains= Train::all();
+
+        return view('welcome', compact('trains'));
+
+    }
 }
